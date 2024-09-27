@@ -1,0 +1,130 @@
+/* Import google font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    background-color: #f0f2f5;
+    
+}
+.topsection{
+    font-size: 1.2rem;
+    margin: 20px 0 20px 0;
+}
+.brandname{
+    color: #1877f2;
+    margin-left: 50px;
+}
+.prompt1{
+    width: 200%;
+    height: 20px;
+    border-radius: none;
+    border: 2px solid #1877f2;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px 250px 5px -150px;
+    padding-top: 5px;
+}
+.prompt2{
+    width: 90%;
+    height: 30px;
+    border-radius: none;
+    border: 2px solid rgba(255, 255, 0, 0.568);
+    background-color: rgba(255, 255, 0, 0.398);
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-top: 10px;
+}
+.formsection{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1 rgba(0, 0, 0, 0.2);
+    gap: 10px;
+}
+.login{
+    font-size: 1.3rem;
+    margin: 20px 0 10px 0;
+}
+input{
+    border: 2px solid rgb(0, 0, 0.2);
+    width: 85%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+}
+button{
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    color: #1877f2;
+}
+a:hover{
+    text-decoration: underline;
+}
+.newacct{
+    width: 50%;
+    background-color: #42b72a;
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+}
+.btn:hover{
+    background-color: #18bb18;
+}
+.newacct:hover{
+    background-color: #3ba327;
+}
+.styleline{
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.styleline::before{
+    content: "";
+    display: block;
+    height: 0.5px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.styleline::after{
+    content: "";
+    display: block;
+    height: 0.5px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
